@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans;
+    color: white;
+}
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+@keyframes mudarBackground {
+    10%{
+        background-image: url(../../assets/posters/banner-one_piece.jpg);
+        transition: 0.3ms;
+    }
+    20%{
+        background-image: url(../../assets/posters/banner-breaking_bad.png);
+        transition: 0.3ms;
+    }
+    30%{
+        background-image: url(../../assets/posters/banner-lucifer.png);     
+        transition: 0.3ms;
+    }
+    40%{
+        background-image: url(../../assets/posters/banner-cidade_invisivel.jpg);     
+        transition: 0.3ms;
+    }
+    50%{
+        background-image: url(../../assets/posters/banner-peaky_blinders.png);     
+        transition: 0.3ms;
+    }
+    60%{
+        background-image: url(../../assets/posters/banner-the_witcher.jpg);     
+        transition: 0.3ms;
+    }
+    70%{
+        background-image: url(../../assets/posters/banner-elite.jpg);     
+        transition: 0.3ms;
+    }
+    80%{
+        background-image: url(../../assets/posters/banner-stranger_things.jpg);     
+        transition: 0.3ms;
+    }
+    90%{
+        background-image: url(../../assets/posters/banner-casa_de_papel.png);     
+        transition: 0.3ms;
+    }
+    100%{
+        background-image: url(../../assets/posters/banner-the_chosen.jpg);     
+        transition: 0.3ms;
+    }
+}
+body{
+    background-image: url(../../assets/posters/banner-the_chosen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: mudarBackground 60s infinite;
+
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #0000004f;
+}
+header{
+    height: 90px;
+}
+header img{
+    margin-left: 2%;
+    height: 100%;
+}
+main{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 314px;
+    height: 560px;
+    padding: 60px 68px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #000000c2;
+}
+.loginForm{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm h1{
+    margin-bottom: 28px;
+    
+    font-size: 2rem;
+}
+.loginFormInputs{
+    display: flex;
+    flex-direction: column;
+}
+.loginFormInputs input{
+    margin-bottom: 1rem;
+    padding: 16px 20px 0px;
+    height: 30px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: #3d3d3d;
+}
+.loginFormInputs input::placeholder{
+    position: absolute;
+    top: 15px;
+    
+    color: #ffffffa1;
+}
+.loginForm button{
+    margin: 30px 0px 12px;
+    padding: 1rem;
+
+    background-color: #E50914;
+    
+    border: none;
+    border-radius: 5px;
+
+    font-size: 1rem;
+    text-align: center;
+}
+.loginFormLembrarSenha{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+    color: #ffffffd2;
+}
+.loginFormLembrarSenha input{
+    background-color: #ffffffa1;
+
+    accent-color: #E50914;
+}
+footer{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(25, 0, 255);
+}

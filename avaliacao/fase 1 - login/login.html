@@ -10,26 +10,40 @@
 </head>
 <body>
     <div class="page">
+    <!--!- HEADER ---->
         <header>
             <img src="../assets/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="">
         </header>
+    <!--!-- MAIN ----->
         <main>
+        <!--!- login ---->
             <div class="login">
-                <div class="loginForm">
+            <!--? form --->
+                <div class="form">
                     <h1>Entrar</h1>
-                    <div class="loginFormInputs">
-                        <input type="text" name="usuario" placeholder="Email ou número de telefone">
-                        <input type="password" name="senha" placeholder="Senha">
+                    <div class="formInputs">
+                        <input type="text" name="usuario" placeholder="Email ou número de telefone" required>
+                        <input type="password" name="senha" placeholder="Senha" required>
                         <button type="submit">Entrar</button>
                     </div>
-                    <div class="loginFormLembrarSenha">
-                        <input type="checkbox" name="lembrarUsuario"> Mantenha-me conectado
+                    <div class="formUsuario">
+                        <div class="lembrarUsuario">
+                            <input type="checkbox" name="lembrarUsuario"> Lembre-se de mim
+                        </div>
+        <!--! recuperar senha --->
+                        <p class="recuperarSenha"><a href="">Precisa de ajuda?</a></p>
                     </div>
                 </div>
-                <div class="recuperarSenha"></div>
+        <!--! cadastrar --->
+                <div class="cadastramento">
+                    <p>Novo por aqui? <a href="pages/cadastro.html"> Assine agora</a>.</p>
+                </div>
             </div>
         </main>
-        <footer></footer>
+    <!--!- FOOTER ---->
+        <footer>
+            <p>Dúvidas? Ligue <a href="#"> 0800 591 2876</a></p>
+        </footer>
     </div>
 </body>
 </html>

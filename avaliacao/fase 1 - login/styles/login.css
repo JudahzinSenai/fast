@@ -1,4 +1,5 @@
-*{
+/*!------ GERAL ------*/
+*{  
     margin: 0;
     padding: 0;
     font-family: Netflix Sans;
@@ -50,27 +51,41 @@
         transition: 0.3ms;
     }
 }
+@keyframes placeholder {
+    
+}
 body{
     background-image: url(../../assets/posters/banner-the_chosen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
     animation: mudarBackground 60s infinite;
-
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p, footer a{
+    color: #ffffff6c;
 }
 .page{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
     background-color: #0000004f;
 }
+
+/*!------ HEADER ------*/
 header{
-    height: 90px;
+    height: 5.5rem;
 }
 header img{
     margin-left: 2%;
     height: 100%;
 }
+/*!------ MAIN ------*/
 main{
     height: 100%;
 
@@ -78,74 +93,109 @@ main{
     justify-content: center;
     align-items: center;
 }
-.login{
-    width: 314px;
-    height: 560px;
-    padding: 60px 68px;
 
-    display: flex;
-    flex-direction: column;
+    /*!------ login ------*/
+    .login{
+        margin-bottom: 5rem;
+        width: 19.5rem;
+        min-height: 27rem;
+        padding: 3.75rem 4.25rem;
 
-    background-color: #000000c2;
-}
-.loginForm{
-    height: 360px;
-    display: flex;
-    flex-direction: column;
-}
-.loginForm h1{
-    margin-bottom: 28px;
-    
-    font-size: 2rem;
-}
-.loginFormInputs{
-    display: flex;
-    flex-direction: column;
-}
-.loginFormInputs input{
-    margin-bottom: 1rem;
-    padding: 16px 20px 0px;
-    height: 30px;
-    
-    border: none;
-    border-radius: 5px;
+        display: flex;
+        flex-direction: column;
 
-    background-color: #3d3d3d;
-}
-.loginFormInputs input::placeholder{
-    position: absolute;
-    top: 15px;
-    
-    color: #ffffffa1;
-}
-.loginForm button{
-    margin: 30px 0px 12px;
-    padding: 1rem;
+        background-color: #000000c2;
+        border-radius: 5px;
+    }
+        /*!------ form ------*/
+        .form{
+            height: 22.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .form h1{
+            margin-bottom: 1.75rem;
+            
+            font-size: 2rem;
+        }
+        .formInputs{
+            display: flex;
+            flex-direction: column;
+        }
+        .formInputs input{
+            margin-bottom: 1rem;
+            padding: 0.5rem 1.25rem 0.5rem;
+            height: 2rem;
+            
+            border: none;
+            border-radius: 5px;
 
-    background-color: #E50914;
-    
-    border: none;
-    border-radius: 5px;
+            background-color: #3d3d3d;
+        }
+        .formInputs input::placeholder{
+            position: absolute;
+            top: 1rem;
+            
+            color: #ffffff60;
+        }
+        .formInputs input:focus{
 
-    font-size: 1rem;
-    text-align: center;
-}
-.loginFormLembrarSenha{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+        }
+        .form button{
+            margin: 2rem 0rem 0.5rem;
+            padding: 1rem;
 
-    font-size: 14px;
-    color: #ffffffd2;
-}
-.loginFormLembrarSenha input{
-    background-color: #ffffffa1;
+            background-color: #E50914;
+            
+            border: none;
+            border-radius: 5px;
 
-    accent-color: #E50914;
-}
+            font-size: 1rem;
+            text-align: center;
+        }
+        .formUsuario{
+            display: flex;
+            justify-content: space-between;
+        }
+        .lembrarUsuario{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            
+            font-size: 0.875rem;
+            color: #ffffff6c;
+        }
+        .lembrarUsuario input{
+            accent-color: #E50914;
+        }
+
+    /*!-- recuperar senha --*/
+    .formUsuario a{
+        font-size: 0.875rem;
+        color: #ffffff6c;
+    }
+    /*!--- cadastramento ---*/
+    .cadastramento{
+        padding-top: 5px;
+
+        border-top: 0.1rem solid #ffffff6c;
+
+        font-size: 0.9rem;
+    }
+    .cadastramento p{
+        color: #ffffff6c;
+    }
+
+/*!------ FOOTER ------*/
 footer{
-    margin: 0 auto;
-    width: 1000px;
-    height: 100px;
-    background-color: rgb(25, 0, 255);
+    width: 100%;
+    height: 5rem;
+
+    background-color: #000000c5;
+}
+footer p{
+    padding-left: 5rem;
+    line-height: 5rem;
+
+    color: #ffffff85;
 }

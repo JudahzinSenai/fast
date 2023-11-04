@@ -1,14 +1,3 @@
-/*!------ GERAL ------*/
-*{  
-    margin: 0;
-    padding: 0;
-    font-family: Netflix Sans;
-    color: white;
-}
-@font-face {
-    font-family: Netflix Sans;
-    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
-}
 @keyframes mudarBackground {
     10%{
         background-image: url(../../assets/posters/banner-one_piece.jpg);
@@ -51,39 +40,12 @@
         transition: 0.3ms;
     }
 }
-@keyframes placeholder {
-    
-}
 body{
     background-image: url(../../assets/posters/banner-the_chosen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
     animation: mudarBackground 60s infinite;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-p, footer a{
-    color: #ffffff6c;
-}
-.page{
-    width: 100%;
-    height: 100%;
-    
-    background-color: #0000004f;
-}
-
-/*!------ HEADER ------*/
-header{
-    height: 5.5rem;
-}
-header img{
-    margin-left: 2%;
-    height: 100%;
 }
 /*!------ MAIN ------*/
 main{
@@ -138,14 +100,15 @@ main{
             
             color: #ffffff60;
         }
-        .formInputs input:focus{
-
+        input:focus{
+            background-color: #ffffffa2;
+            color: black;
         }
         .form button{
             margin: 2rem 0rem 0.5rem;
             padding: 1rem;
 
-            background-color: #E50914;
+            background-color: var(--red-netflix);
             
             border: none;
             border-radius: 5px;

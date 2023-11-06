@@ -1,0 +1,46 @@
+header{
+    height: 60px;
+    
+    border-bottom: 0.1rem solid #ffffff31;
+}
+header img{
+    margin: 0;
+}
+.entrar{
+    margin-right: 2%;
+    height: 100%;
+}
+.entrar a{
+    width: 30px;
+    padding: 6px 10px;
+
+    line-height: 60px;
+}
+body{
+    background-image: none;
+    animation: none;
+    background-color: black;
+}
+.cadastro{
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+}
+.form{
+    margin-top: 1.2em;
+    width: 100%;
+}
+.cadastramento{
+    border-top: 0;
+
+    padding-bottom: 10px;
+}
+footer{
+    height: 3rem;
+}
+footer p{ 
+    border-top: 0.1rem solid #ffffff31;
+
+    padding-left: 5%;
+}

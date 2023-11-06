@@ -1,0 +1,34 @@
+header{
+    height: 90px;
+}
+header img{
+    margin: 0;
+}
+
+body{
+    background-image: none;
+    animation: none;
+    background-color: black;
+}
+.login{
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+}
+.form{
+    width: 100%;
+}
+.cadastramento{
+    border-top: 0;
+    border-bottom: 0.1rem solid #ffffff6c;
+
+    padding-bottom: 10px;
+}
+footer{
+    height: 3rem;
+}
+footer p{
+    padding-left: 5%;
+    line-height: 0;
+}

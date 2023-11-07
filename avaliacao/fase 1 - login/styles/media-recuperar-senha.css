@@ -1,5 +1,11 @@
+body{
+    background-image: none;
+    background-color: #f3f3f3;
+}
+
+/*!------ HEADER ------*/
 header{
-    height: 60px;
+    height: 3.75rem;
 
     background-image: none;
     border-bottom: 0.1rem solid #00000021;
@@ -16,14 +22,12 @@ header img{
     padding: 6px 10px;
 
     font-size: 1rem;
-    line-height: 60px;
+    line-height: 3.75rem;
 
     background-color: transparent;
 }
-body{
-    background-image: none;
-    background-color: #f3f3f3;
-}
+
+/*!------ MAIN ------*/
 .container{
     width: 100%;
 }

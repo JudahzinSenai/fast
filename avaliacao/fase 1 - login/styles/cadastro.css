@@ -14,15 +14,15 @@ header{
     height: 100%;
 }
 .entrar a{
-    width: 40px;
-    padding: 12px 16px;
+    width: 2.5rem;
+    padding: 0.75rem 1rem;
 
     border-radius: 5px;
     background-color: var(--red-netflix);
     text-align: center;
     line-height: 5.5rem;
 
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -35,8 +35,9 @@ main{
     justify-content: center;
     align-items: center;
 }
-    /*!------ cadastro ------*/
-    .cadastro{
+
+    /*!------ container ------*/
+    .container{
         margin-bottom: 5rem;
         width: 19.5rem;
         min-height: 27rem;
@@ -48,22 +49,24 @@ main{
         background-color: #000000c2;
         border-radius: 5px;
     }
-        /*!------ form ------*/
-        .form{
+    h1{
+        margin-bottom: 1.75rem;
+        
+        font-size: 2rem;
+    }
+        /*!------ content ------*/
+        .content{
             height: 22.5rem;
             display: flex;
             flex-direction: column;
         }
-        .form h1{
-            margin-bottom: 1.75rem;
-            
-            font-size: 2rem;
-        }
-        .formInputs{
+
+        /*?------ Form ------*/
+        form{
             display: flex;
             flex-direction: column;
         }
-        .formInputs input,
+        form input,
         select{
             margin-bottom: 1rem;
             padding: 0.5rem 1.25rem 0.5rem;
@@ -74,7 +77,7 @@ main{
 
             background-color: #3d3d3d;
         }
-        .formInputs input::placeholder{
+        form input::placeholder{
             position: absolute;
             top: 1rem;
             
@@ -96,7 +99,7 @@ main{
         select:focus{
             color: white;
         }
-        .form button{
+        form button{
             margin: 2rem 0rem 0.5rem;
             padding: 1rem;
 

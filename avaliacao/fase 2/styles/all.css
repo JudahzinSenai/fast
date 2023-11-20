@@ -1,7 +1,7 @@
 /*!------ GERAL ------*/
 @font-face {
     font-family: Netflix Sans;
-    src: url(../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
 }
 *{
     margin: 0;
@@ -86,7 +86,7 @@ main{
     #banner1{
         height: 680px;
 
-        background-image: url(../assets/images/1banner.png);
+        background-image: url(../../assets/images/1banner.png);
         background-size: cover;
         background-position: end;
         background-repeat: no-repeat; 
@@ -172,7 +172,7 @@ main{
     #banner2{
         height: 95%;
         
-        background-image: url(../assets/images/2banner.png);
+        background-image: url(../../assets/images/2banner.png);
         background-size: cover;
         background-position: end;
         background-repeat: no-repeat; 

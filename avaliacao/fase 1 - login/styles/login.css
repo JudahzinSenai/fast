@@ -50,7 +50,7 @@ body{
 }
 /*!------ MAIN ------*/
 main{
-    height: 100%;
+    height: 90vh;
 
     display: flex;
     justify-content: center;
@@ -142,7 +142,8 @@ main{
         }
         /**--- cadastro ---*/
         .cadastro{
-            padding-top: 5px;
+            margin-top: 1rem;
+            padding-top: 2px;
 
             border-top: 0.1rem solid #ffffff6c;
 
@@ -150,4 +151,8 @@ main{
         }
         .cadastro p{
             color: #ffffff6c;
+        }
+        footer{
+            position: absolute;
+
         }   

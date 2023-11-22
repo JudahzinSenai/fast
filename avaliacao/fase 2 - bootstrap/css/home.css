@@ -1,12 +1,7 @@
-.nav-item{
-    font-size: 1.25rem;
-}
+/*!---- MAIN ----*/
 
-.seta img, .seriesCapas img{
-    width: 100%;
-}
-
-#c-1{
+/*?-- Carousel ---*/
+#c-1{ 
     height: 42.5rem;
 
     background-image: url(../../assets/images/1banner.png);
@@ -90,6 +85,7 @@
     margin-right: 10px;
 }
 
+/*?--- Series ---*/
 .series{
     overflow: hidden;
 }
@@ -106,6 +102,7 @@
     margin-bottom: 5rem;
 }
 
+/*?--- Categorias ---*/
 .categorias{
     padding: 0px 20px;
 }
@@ -150,9 +147,3 @@
     #cat7{
         background-color: #7052ff;
     }
-
-footer p{
-    border-top: 1px solid white;
-
-    color: #ffffff85;
-}

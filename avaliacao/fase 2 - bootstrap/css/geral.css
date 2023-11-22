@@ -4,9 +4,24 @@
 /*!-- Fonte --*/
 @font-face {
     font-family: Netflix Sans;
-    src: url(/avaliacao/assets/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Medium.otf);
 }
 *{
     font-family: Netflix Sans;
     color: white!important;
+}
+
+/*!-- Header --*/
+.nav-item{
+    font-size: 1.25rem;
+}
+.seta img, .seriesCapas img{
+    width: 100%;
+}
+
+/*!-- Footer --*/
+footer p{
+    border-top: 1px solid white;
+
+    color: #ffffff85;
 }

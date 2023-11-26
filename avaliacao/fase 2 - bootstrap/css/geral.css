@@ -11,12 +11,19 @@
     color: white!important;
 }
 
+
+
 /*!-- Header --*/
 .nav-item{
     font-size: 1.25rem;
 }
 .seta img, .seriesCapas img{
     width: 100%;
+}
+
+/*!-- Main --*/
+a{
+    text-decoration: none;
 }
 
 /*!-- Footer --*/

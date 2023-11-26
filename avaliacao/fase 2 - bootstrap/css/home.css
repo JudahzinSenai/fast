@@ -1,5 +1,11 @@
 /*!---- MAIN ----*/
 
+/*?-- Modal ---*/
+.users:hover{
+    background-color: #363636;
+    border-radius: 5px;
+}
+
 /*?-- Carousel ---*/
 #c-1{ 
     height: 42.5rem;
@@ -96,8 +102,16 @@
 }
 .seriesCapas{
     gap: 1.25rem;
-
 }
+
+.seriesCapas img{
+    cursor: pointer;
+}
+.seriesCapas img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5ms;
+}
+
 #topSemana{
     margin-bottom: 5rem;
 }
@@ -147,3 +161,4 @@
     #cat7{
         background-color: #7052ff;
     }
+

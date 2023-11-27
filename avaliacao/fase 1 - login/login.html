@@ -21,7 +21,7 @@
             <h1>Entrar</h1>
             <div class="content">
             <!--?-- Form ----->
-                <form>
+                <form id="formulario" onsubmit="return autenticar()">
                     <input id="usuario" type="text" name="usuario" placeholder="Email ou número de telefone" required>
                     <input id="senha" type="password" name="senha" placeholder="Senha" required>
                     <button id="btn-login" type="submit">Entrar</button>

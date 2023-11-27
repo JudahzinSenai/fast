@@ -1,21 +1,14 @@
 const user = "ADMIN"
 const senha = "ADMIN"
-let btnLogin = document.querySelector("#btn-login")
-
-btnLogin.addEventListener("click", autenticar)
-
-function redirecionarHome(){
-    window.location = "../../fase 2 - bootstrap/index.html"
-}
 
 function autenticar(){
     let userInserted = document.querySelector("#usuario").value
     let senhaInserted = document.querySelector("#senha").value
+    let formulario = document.querySelector("#formulario")
 
     if (userInserted == user && senhaInserted == senha) {
-        redirecionarHome()
-    }else{
+        formulario.action = "../fase 2 - bootstrap/index.html";
+    } else {
         alert("Usuário e/ou senha incorretos! Tente novamente!")
-        location.reload()
     }    
 }
